@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anta&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 body {
   margin: 0;
   font-family: "Raleway", serif !important;
@@ -807,7 +808,8 @@ button:focus {
 }
 
 .header-name {
-  font-weight: 600;
-  font: 1.5em impact;
+  font-weight: 800;
+  font: 1.5em Anta, sans-serif;
+
   color: var(--imp-text-color) !important;
 }

@@ -2,12 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
+import aiTrader from "../../Assets/Projects/ai-trader.png";
+import myStreet from "../../Assets/Projects/my-street.png";
 import portfolio from "../../Assets/Projects/portfolio_img.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import algoTrader from "../../Assets/Projects/algo-trader.png";
+import blog from "../../Assets/Projects/blog.png";
 
 function Projects() {
   return (
@@ -26,7 +25,7 @@ function Projects() {
               imgPath={portfolio}
               isBlog={false}
               title="Porfolio [This Website]"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+              description="This site is a comprehensive showcase of my professional skills and projects in software development and design. Built with React.js, it reflects my proficiency in front-end development and my passion for creating intuitive, visually appealing digital experiences."
               ghLink="https://github.com/RyanBuss01/Portfolio-website"
               demoLink="/"
             />
@@ -34,57 +33,54 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={blog}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={editor}
-              isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
+              title="My Chatbot"
+              description="This Natural Language Proccessing chatbot, developed in React, communicates by understanding and responding to human language with cutting edge Machine Learning technology. Trained on tokenized data in Python, it breaks down text to learn language patterns, enabling nuanced interactions."
               ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              // demoLink="https://editor.soumya-jit.tech/"              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={algoTrader}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Algo-Trader"
+              description="This application uses advanced financial analysis to offer real-time trading prediction probabilities and a comprehensive stock market condition scanner. Utilizing HTML for a user-friendly interface and Node.js for server-side logic, applying technical analysis and sophisticated probability algorithms to forecast trading opportunities."
+              ghLink="https://github.com/RyanBuss01/algo-trader"
+              // demoLink=""
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={aiTrader}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="AI Trader"
+              description="A console based application written in javascript that uses technical analysis stock data and Machine learning principles including LSTM and RNN Nerual Networks to forecast stock prices and trading decisions."
+              ghLink="https://github.com/RyanBuss01/AI-trader--Legacy-"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={myStreet}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="My Street"
+              description="This project is a mobile application built in the Flutter framwork with a Node.JS backend. It is a geo-location based social media platform that allows users to post, comment and chat with other users in realtime. Combined with complex SQL query statements and image handling with AWS S3 this application uses location services to utilize the map as a user-interface."
+              ghLink="https://github.com/RyanBuss01/my-street"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              // imgPath={blog}
+              isBlog={false}
+              title="[BLOG]"
+              description=""
+              ghLink=""
+              // demoLink=""      <--------Please include a demo link here 
             />
           </Col>
         </Row>
