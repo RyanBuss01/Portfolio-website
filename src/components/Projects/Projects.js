@@ -27,7 +27,7 @@ function Projects() {
               title="Porfolio [This Website]"
               description="This site is a comprehensive showcase of my professional skills and projects in software development and design. Built with React.js, it reflects my proficiency in front-end development and my passion for creating intuitive, visually appealing digital experiences."
               ghLink="https://github.com/RyanBuss01/Portfolio-website"
-              demoLink="/"
+              demoLink="/Portfolio-website/"
             />
           </Col>
 
