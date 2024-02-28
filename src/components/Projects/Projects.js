@@ -6,7 +6,7 @@ import aiTrader from "../../Assets/Projects/ai-trader.png";
 import myStreet from "../../Assets/Projects/my-street.png";
 import portfolio from "../../Assets/Projects/portfolio_img.png";
 import algoTrader from "../../Assets/Projects/algo-trader.png";
-import blog from "../../Assets/Projects/blog.png";
+import myGpt from "../../Assets/Projects/my-gpt.png";
 
 function Projects() {
   return (
@@ -33,12 +33,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={blog}
+              imgPath={myGpt}
               isBlog={false}
-              title="My Chatbot"
-              description="This Natural Language Proccessing chatbot, developed in React, communicates by understanding and responding to human language with cutting edge Machine Learning technology. Trained on tokenized data in Python, it breaks down text to learn language patterns, enabling nuanced interactions."
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              // demoLink="https://editor.soumya-jit.tech/"              
+              title="My GPT"
+              description="This Natural Language Proccessing chatbot, developed in React, communicates by understanding and responding to human language with cutting edge Machine Learning technology. Trained on tokenized data in Javascript using Tensorflow (python and PyTorch in old version), it breaks down text to learn language patterns, enabling nuanced interactions."
+              ghLink="https://github.com/RyanBuss01/my-gpt"
+              demoLink="https://ryanbuss01.github.io/my-gpt/"              
             />
           </Col>
 
@@ -73,7 +73,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               // imgPath={blog}
               isBlog={false}
@@ -82,7 +82,7 @@ function Projects() {
               ghLink=""
               // demoLink=""      <--------Please include a demo link here 
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
