@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Portfolio-website/static/css/main.fad71ec2.css",
+    "main.js": "/Portfolio-website/static/js/main.7bb99efd.js",
+    "static/js/770.b477def6.chunk.js": "/Portfolio-website/static/js/770.b477def6.chunk.js",
+    "static/js/453.1407b060.chunk.js": "/Portfolio-website/static/js/453.1407b060.chunk.js",
+    "static/media/portfolio_img.png": "/Portfolio-website/static/media/portfolio_img.e27ba198e1febb261792.png",
+    "static/media/me.jpg": "/Portfolio-website/static/media/me.61767659b939bda9173b.jpg",
+    "static/media/my-street.png": "/Portfolio-website/static/media/my-street.7c7a2d1211d5944621f9.png",
+    "static/media/algo-trader.png": "/Portfolio-website/static/media/algo-trader.b12e9e6f8130b412273a.png",
+    "static/media/my-gpt.png": "/Portfolio-website/static/media/my-gpt.23e91b8d71c5fa182aee.png",
+    "static/media/ai-trader.png": "/Portfolio-website/static/media/ai-trader.65e124779f82ba7355f7.png",
+    "static/media/home-main.svg": "/Portfolio-website/static/media/home-main.ab4ddb8ddd6fa26d000df2ffc0b4bca5.svg",
+    "static/media/Resume-pdf.pdf": "/Portfolio-website/static/media/Resume-pdf.2d2982eac88bbbbd3505.pdf",
+    "static/media/home-bg.jpg": "/Portfolio-website/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/pre.svg": "/Portfolio-website/static/media/pre.cf9b6ee6f3201d77599f.svg",
+    "index.html": "/Portfolio-website/index.html",
+    "main.fad71ec2.css.map": "/Portfolio-website/static/css/main.fad71ec2.css.map",
+    "main.7bb99efd.js.map": "/Portfolio-website/static/js/main.7bb99efd.js.map",
+    "770.b477def6.chunk.js.map": "/Portfolio-website/static/js/770.b477def6.chunk.js.map",
+    "453.1407b060.chunk.js.map": "/Portfolio-website/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fad71ec2.css",
+    "static/js/main.7bb99efd.js"
+  ]
+}
