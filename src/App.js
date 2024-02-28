@@ -27,7 +27,7 @@ function App() {
   }, []);
 
   return (
-    <Router>
+    <Router basename="/Portfolio-website">
       {load ? (
         <Preloader load={load} />
       ) : (
