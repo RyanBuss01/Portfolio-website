@@ -9,10 +9,13 @@ function Type() {
           "Software Developer",
           "Machine Learning Developer",
           "Full Stack Developer",
+          "Web Developer",
+          "Mobile App Developer",
         ],
         autoStart: true,
         loop: true,
         deleteSpeed: 50,
+
       }}
     />
   );
