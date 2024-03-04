@@ -1,3 +1,5 @@
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/RyanBuss01/Portfolio-website/badge)](https://securityscorecards.dev/viewer/?uri=github.com/RyanBuss01/Portfolio-website)
+
 # Ryan Bussert's Portfolio Website
 
 Welcome to the source code repository of my personal portfolio website! This site is a comprehensive showcase of my professional journey, skills, projects, and accomplishments in the world of software development and design. Built with React.js, it reflects my proficiency in front-end development and my passion for creating intuitive, visually appealing digital experiences.
