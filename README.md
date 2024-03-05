@@ -1,4 +1,5 @@
 [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/RyanBuss01/Portfolio-website/badge)](https://securityscorecards.dev/viewer/?uri=github.com/RyanBuss01/Portfolio-website)
+[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/8611/badge)](https://www.bestpractices.dev/projects/8611)
 
 # Ryan Bussert's Portfolio Website
 
