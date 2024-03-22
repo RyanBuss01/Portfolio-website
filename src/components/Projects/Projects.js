@@ -7,6 +7,7 @@ import myStreet from "../../Assets/Projects/my-street.png";
 import portfolio from "../../Assets/Projects/portfolio_img.png";
 import algoTrader from "../../Assets/Projects/algo-trader.png";
 import myGpt from "../../Assets/Projects/my-gpt.png";
+import aiForecast from "../../Assets/Projects/ai-forecast.png";
 
 function Projects() {
   return (
@@ -28,6 +29,17 @@ function Projects() {
               description="This site is a comprehensive showcase of my professional skills and projects in software development and design. Built with React.js, it reflects my proficiency in front-end development and my passion for creating intuitive, visually appealing digital experiences."
               ghLink="https://github.com/RyanBuss01/Portfolio-website"
               demoLink="/Portfolio-website/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={aiForecast}
+              isBlog={false}
+              title="AI Forecast"
+              description="Using Tesnorflow and Jupyter Notebook / Python to create a weather forecasting deep learning model for teperature prediction. With a combination of data science priciples and machine learning, this model is able to predict future temperatures based on historical data."
+              ghLink="https://github.com/RyanBuss01/ai-forecast"
+              demoLink="https://ryanbuss01.github.io/ai-forecast/"              
             />
           </Col>
 
