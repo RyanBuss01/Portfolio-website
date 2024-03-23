@@ -11,6 +11,8 @@ function Type() {
           "Full Stack Developer",
           "Web Developer",
           "Mobile App Developer",
+          "Data Scientist",
+
         ],
         autoStart: true,
         loop: true,
