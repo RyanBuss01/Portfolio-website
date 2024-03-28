@@ -17,6 +17,8 @@ import {
   SiSolidity,
   SiPostgresql,
   SiMysql,
+  SiJupyter,
+  SiTensorflow,
 } from "react-icons/si";
 import { TbBrandGolang } from "react-icons/tb";
 
@@ -31,6 +33,12 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTensorflow />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiJupyter />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
