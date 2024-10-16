@@ -7,7 +7,7 @@ Welcome to the source code repository of my personal portfolio website! This sit
 
 ## Deployment 
 
-([View Website](https://ryanbuss01.github.io/Portfolio-website/))
+[View Website](https://ryanbuss01.github.io/Portfolio-website/)
 
 ## Features
 

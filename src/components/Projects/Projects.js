@@ -8,6 +8,7 @@ import portfolio from "../../Assets/Projects/portfolio_img.png";
 import algoTrader from "../../Assets/Projects/algo-trader.png";
 import myGpt from "../../Assets/Projects/my-gpt.png";
 import aiForecast from "../../Assets/Projects/ai-forecast.png";
+import galiantLogo from "../../Assets/Projects/logo-blue.png";
 
 function Projects() {
   return (
@@ -21,6 +22,15 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={galiantLogo}
+              isBlog={false}
+              title="Galiant AI"
+              description="This is a full-stack web application using reactJS and a python backend to run multiple open source AI models for image recognition, music generationg, programing assistance and more. The application is designed to be a one-stop-shop for AI tools and resources."
+              demoLink="https://galiant.ai"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={portfolio}
